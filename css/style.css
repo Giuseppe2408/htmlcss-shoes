@@ -10,6 +10,33 @@
     position: relative;
 }
 
+.box::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pulsanti {
+    position: absolute;
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    right: 20px;
+}
+
+.circle {
+    background-color: white;
+    border-radius: 50%;
+    float: right;
+    margin: 15px 15px;
+}
+
+.circle > strong {
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+
 .img-center {
     position: absolute;
     top: 50%;
